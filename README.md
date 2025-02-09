@@ -1,3 +1,3 @@
-Initial Commit
-
-This is a starter template for Node.js projects using TypeScript.
+-Created an express server.
+-Created a simple in-memory cache to store, retrieve, and delete a value with key.
+-Created API route to access the functionality.
