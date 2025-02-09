@@ -1,0 +1,23 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "rimraf dist && tsc",
+        "dev": "nodemon",
+        "start": "node dist/index.js"
+    },
+    "author": "Abhay Anand",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "nodemon": "^3.1.9",
+        "rimraf": "^6.0.1",
+        "typescript": "^5.7.3"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2"
+    }
+}
